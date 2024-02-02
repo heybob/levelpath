@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing Loading Indicator Component It should render loading indicator 1`] = `
+exports[`Testing Error Modal Component It should render Error Modal 1`] = `
 <div
   className="modal-background"
 >

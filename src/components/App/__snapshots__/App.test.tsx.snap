@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing Header Component It should render Header Title 1`] = `
+exports[`Testing App Component It should render App 1`] = `
 <div
   className="App"
 >

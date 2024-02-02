@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import { Button } from "./Button";
 
-describe('Testing Loading Indicator Component', () => {
+describe('Testing Button Component', () => {
   it('It should render a button with name ClickMe', () => {
       const tree = renderer.create(<Button name="Click Me" />).toJSON();
     expect(tree).toMatchSnapshot();
