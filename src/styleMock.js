@@ -1,0 +1,1 @@
+module.exports = {}; //Fix jest issue when tyring to load css

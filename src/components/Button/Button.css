@@ -1,0 +1,20 @@
+button {
+    background-color: #6a6aff;
+    min-width: 1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.2rem ;
+    border: 1px solid rgb(80, 80, 251);
+    color: white;
+    margin: .2rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+  }
+  button:hover {
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: #7f7ffe;
+  }

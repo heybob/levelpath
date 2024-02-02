@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Loading Indicator Component It should render a button with name ClickMe 1`] = `
+<button
+  disabled={false}
+>
+  Click Me
+</button>
+`;
+
+exports[`Testing Loading Indicator Component It should render a disabled Click Me Button 1`] = `
+<button
+  disabled={true}
+>
+  Click Me
+</button>
+`;

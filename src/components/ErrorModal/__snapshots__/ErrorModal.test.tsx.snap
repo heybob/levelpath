@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Loading Indicator Component It should render loading indicator 1`] = `
+<div
+  className="modal-background"
+>
+  <div
+    className="modal-error"
+  >
+    <header>
+      <h1>
+        Error
+      </h1>
+    </header>
+    <section>
+      <p>
+        We're sorry, an error happened while getting the data.
+      </p>
+      <p>
+        Please try again.
+      </p>
+    </section>
+    <footer>
+      <button
+        disabled={false}
+        onClick={[Function]}
+      >
+        Close
+      </button>
+    </footer>
+  </div>
+</div>
+`;

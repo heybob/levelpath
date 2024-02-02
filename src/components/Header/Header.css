@@ -1,0 +1,10 @@
+.header {
+    background: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+}
+h1, h2 {
+    margin: 0;
+}

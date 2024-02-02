@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header Component It should render Header Title 1`] = `
+<div
+  className="header"
+>
+  <h1>
+    Wikipedia Presents: Born On This Day
+     
+  </h1>
+  <h2>
+    12
+    /
+    17
+    /
+    1995
+  </h2>
+</div>
+`;

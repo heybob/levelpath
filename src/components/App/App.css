@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  margin: 0;
+  min-width: 785px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.header-container {
+  position: sticky;
+  top: 0;
+  margin: 0;
+  background-color: white;
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+}
