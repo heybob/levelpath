@@ -8,7 +8,7 @@ export function ProfileList() {
     const {paginatedData} = state;
     return (
         <div className='list-container'>
-        {paginatedData && paginatedData.map( (profile: Profile, index: number) => {
+        {paginatedData && paginatedData.map((profile: Profile, index: number) => {
           return (
           <Card key={index} name={profile.name}  title={profile.title}  birthYear={profile.birthYear} extract={profile.extract} thumbnail={profile.thumbnail}/>
           )

@@ -7,10 +7,8 @@ import { Button } from "../Button/Button";
 
 export function ErrorModal() {
     const {dispatch} = useContext(WikiContext);
-
     const handleClick = useCallback(() => (dispatch(closeErrorModal())), [dispatch]);
     
-
     return (
     <div className="modal-background">
         <div className="modal-error">

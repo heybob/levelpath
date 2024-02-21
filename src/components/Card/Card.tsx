@@ -12,7 +12,6 @@ export function Card({
     <section className="card">
         <div className="card-img-container" style={{backgroundImage: `url(${thumbnail})`, backgroundSize: 'cover'}}>
             {!thumbnail ? (<FaRegUser className="missing-img" />) : null}
-            
         </div>
         <div className="card-content" >
             <h2>{name}</h2>
